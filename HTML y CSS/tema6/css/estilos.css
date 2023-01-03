@@ -1,0 +1,32 @@
+html {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+#button::before {
+    content: 'Pasa por encima';
+}
+
+#button:hover {
+    color: white;
+    background-color: green;
+}
+
+#button:hover::before {
+    content: '¡Hecho!';
+}

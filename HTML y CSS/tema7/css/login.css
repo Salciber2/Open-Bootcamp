@@ -1,0 +1,211 @@
+/* GENERAL */
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+html {
+    background-color: #161717;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 400px;
+    margin: auto;
+}
+
+.container h3 {
+    align-self: flex-start;
+    color: white;
+}
+
+/* FIN GENERAL */
+/* BOTONES DE REDES SOCIALES */
+
+.social-media-btn {
+    align-self: flex-start;
+    display: flex;
+    gap: 20px;
+}
+
+.google-btn {
+    background-color: #1A73E8;
+    border: none;
+    border-radius: 3px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    cursor: pointer;
+    
+}
+
+.google-btn:hover {
+    background-color: #5195EE;
+}
+
+.google-btn picture {
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 3px 0 0 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.google-btn picture img {
+    width: 50%;
+}
+
+.google-btn span {
+    color: white;
+    font-weight: 500;
+    padding: 40px;
+}
+
+.twitter-btn {
+    background-color: #F2F2F2;
+    color: #6E6D7A;
+    border: none;
+    border-radius: 7px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.twitter-btn:hover {
+    background-color: #E2E2E2;
+}
+
+.twitter-btn picture {
+    width: 40px;
+    opacity: 0.7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.twitter-btn picture img {
+    width: 35%;
+}
+
+/* FIN BOTONES DE REDES SOCIALES */
+/* SEPARADOR */
+
+.separator {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+
+.separator hr {
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid #E0E0E0;
+}
+
+.separator span {
+    color: white;
+}
+
+/* FIN SEPARADOR */
+/* FORMULARIO */
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    width: 400px;
+}
+
+.section-names {
+    display: flex;
+    gap: 20px; /* Para acomodar con 100% de width name y username */
+}
+
+.section-names label {
+    width: 190px;
+}
+
+label {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label span {
+    font-weight: 500;
+    color: white;
+}
+
+label input {
+    background-color: #212121;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    outline: none;
+    font-size: 14pt;
+    transition: background-color 0.2s, border 0.2s, box-shadow 0.2s, color 0.2s;
+    color: white;
+}
+
+label input:hover {
+    background-color: #454045;
+    /* border: 1px solid #F3F3F4; */
+    box-shadow: 0 0 1px 1px #E5E5E5, 0 0 1px 5px #FDEDF3; /* Busqué como hacerlo más parecido */
+    color: #161717;
+}
+
+label input:focus {
+    background-color: white;
+    /* border: 1px solid #F3F3F4; */
+    box-shadow: 0 0 1px 1px #FF0F10, 0 0 1px 5px #FDEDF3; /* Busqué como hacerlo más parecido */
+    color: #161717;
+}
+
+label input[type="password"] {
+    color: #BCBCBC;
+    font-weight: 300;
+}
+
+label input[type="password"]:hover, label input[type="password"]:focus {
+    color: #161717;
+}
+
+/* CHECKBOX Y SUBMIT */
+
+.checkbox-label {
+    display: flex;
+    flex-direction: row;
+}
+
+.checkbox-label span {
+    font-weight: 300;
+}
+
+.submit-btn {
+    background-color: #EA4C89;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 60px;
+    font-weight: 500;
+    font-size: 14pt;
+    align-self: flex-start;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #F082AC;
+}
+
+/* FIN CHECKBOX Y SUBMIT */
+/* FIN FORMULARIO */
