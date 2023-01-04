@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 50px;
+    height: 50vh;
+}
+
+.btn-modern {
+    border: none;
+    padding: 10px 25px;
+    font-size: 15pt;
+    transition: background-color 0.4s, color 0.4s, box-shadow 0.4s, transform 0.4s;
+}
+
+.btn-modern:hover {
+    background-color: #121314;
+    color: #EDECEB;
+    box-shadow: 0 5px 5px #121314;
+    transform: translateY(-5px);
+}
+
+@keyframes traslacion {
+    0% {
+
+    }
+    100% {
+    }
+}
