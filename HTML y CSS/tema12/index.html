@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elementos de Interés en Bootstrap</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container py-5">
+      <h1>Elementos de Interés en Bootstrap</h1>
+
+      <hr />
+
+      <!--  JUMBOTRON -->
+      <div class="row justify-content-center">
+        <div class="bg-light p-3 my-3 rounded-3 col-md-8">
+          <div class="container-fluid">
+            <h2 class="display-4">Jumbotron</h2>
+            <hr />
+            <p class="col-md">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. At
+              ultrices mi tempus imperdiet nulla malesuada pellentesque. Gravida
+              dictum fusce ut placerat. Suscipit adipiscing bibendum est
+              ultricies integer quis.
+            </p>
+            <button
+              class="btn btn-primary"
+              data-toggle="modal"
+              data-target="#modal-jumbotron"
+            >
+              Llamar modal
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- MODAL JUMBOTRON -->
+      <div id="modal-jumbotron" class="modal fade" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4>Modal del Jumbotron</h4>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-dismiss="modal"
+              >
+                Cerrar
+              </button>
+              <button type="button" class="btn btn-primary">Aceptar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="row justify-content-around align-items-center">
+        <!-- FORM -->
+        <div class="col-lg-6 col-md-8 p-3 m-3 bg-light rounded">
+          <h2>Formulario</h2>
+          <form action="#">
+            <div class="form-group">
+              <label for="name">Nombre</label>
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                name="name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="phone-number">Teléfono</label>
+              <input
+                type="number"
+                class="form-control"
+                id="phone-number"
+                name="phone-number"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="message">Mensaje</label>
+              <textarea
+                name="message"
+                id="message"
+                class="form-control"
+                cols="30"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">
+              Enviar
+            </button>
+            <button type="reset" class="btn btn-secondary btn-block">
+              Limpiar
+            </button>
+          </form>
+        </div>
+
+        <!-- CARD -->
+        <div class="row justify-content-center">
+          <div class="card border-success p-3 m-3 col">
+            <div class="card-body text-success">
+              <h4 class="card-title">Santiago Ariel López</h4>
+              <p class="card-text">
+                Hola, estoy aprendiendo HTML, CSS y Bootstrap
+              </p>
+            </div>
+            <div class="card-footer bg-transparent border-success">
+              salciber2@gmail.com
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"
+  ></script>
+  <script>
+    $("#modal-jumbotron").on("show.bs.modal", function (event) {
+      var button = $(event.relatedTarget); // Button that triggered the modal
+      var recipient = button.data("whatever"); // Extract info from data-* attributes
+      // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+      // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+      var modal = $(this);
+      modal.find(".modal-title").text("New message to " + recipient);
+      modal.find(".modal-body input").val(recipient);
+    });
+  </script>
+</html>
