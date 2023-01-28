@@ -1,0 +1,21 @@
+-----------------------
+  1.- Django comandos
+-----------------------
+
+django-admin startproject miproyecto
+    - Crea un proyecto, creando carpetas y archivos
+    - Crea un manage.py y una carpeta miproyecto
+
+python3 manage.py runserver
+python manage.py runserver
+    - Crea el localhost
+
+python3 manage.py startapp catalog
+python manage.py startapp catalog
+    - Crea al mismo nivel que manage.py y miproyecto, la carpeta catalog con sus archivos
+
+python3 manage-py makemigrations
+
+python3 manage.py migrate
+
+python3 manage.py createsuperuser

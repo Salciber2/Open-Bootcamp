@@ -1,0 +1,28 @@
+directores de cine
+    FilmDirector
+        name
+        movies
+peliculas
+    Movie
+        name
+        filmDirector
+        description
+        year
+
+
+filmDirector: Joss Whedon
+movie: Avengers
+year: 2012
+description:
+    Un enemigo inesperado amenaza con poner en peligro la seguridad mundial, así que Nick Fury,
+    Director de la agencia internacional para el mantenimiento de la paz conocida con el nombre de SHIELD,
+    necesita encontrar urgentemente un equipo que salve al mundo del mayor de los desastres.
+
+
+filmDirector: James Cameron
+movie: Avatar
+year: 2009
+description:
+    AVATAR nos lleva a un mundo situado más allá de la imaginación, en donde un
+    recién llegado de la Tierra se embarca en una aventura épica, llegando a luchar,
+    al final, por salvar el extraño mundo al que ha aprendido a llamar su hogar.
