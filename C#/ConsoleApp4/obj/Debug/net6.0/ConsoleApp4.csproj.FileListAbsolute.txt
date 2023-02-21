@@ -1,0 +1,15 @@
+D:\Usuarios\Santiago\Proyectos\C#Projects\ConsoleApp4\obj\Debug\net6.0\ConsoleApp4.csproj.AssemblyReference.cache
+D:\Usuarios\Santiago\Proyectos\C#Projects\ConsoleApp4\obj\Debug\net6.0\ConsoleApp4.GeneratedMSBuildEditorConfig.editorconfig
+D:\Usuarios\Santiago\Proyectos\C#Projects\ConsoleApp4\obj\Debug\net6.0\ConsoleApp4.AssemblyInfoInputs.cache
+D:\Usuarios\Santiago\Proyectos\C#Projects\ConsoleApp4\obj\Debug\net6.0\ConsoleApp4.AssemblyInfo.cs
+D:\Usuarios\Santiago\Proyectos\C#Projects\ConsoleApp4\obj\Debug\net6.0\ConsoleApp4.csproj.CoreCompileInputs.cache
+D:\Usuarios\Santiago\Proyectos\C#Projects\ConsoleApp4\bin\Debug\net6.0\ConsoleApp4.exe
+D:\Usuarios\Santiago\Proyectos\C#Projects\ConsoleApp4\bin\Debug\net6.0\ConsoleApp4.deps.json
+D:\Usuarios\Santiago\Proyectos\C#Projects\ConsoleApp4\bin\Debug\net6.0\ConsoleApp4.runtimeconfig.json
+D:\Usuarios\Santiago\Proyectos\C#Projects\ConsoleApp4\bin\Debug\net6.0\ConsoleApp4.dll
+D:\Usuarios\Santiago\Proyectos\C#Projects\ConsoleApp4\bin\Debug\net6.0\ConsoleApp4.pdb
+D:\Usuarios\Santiago\Proyectos\C#Projects\ConsoleApp4\obj\Debug\net6.0\ConsoleApp4.dll
+D:\Usuarios\Santiago\Proyectos\C#Projects\ConsoleApp4\obj\Debug\net6.0\refint\ConsoleApp4.dll
+D:\Usuarios\Santiago\Proyectos\C#Projects\ConsoleApp4\obj\Debug\net6.0\ConsoleApp4.pdb
+D:\Usuarios\Santiago\Proyectos\C#Projects\ConsoleApp4\obj\Debug\net6.0\ConsoleApp4.genruntimeconfig.cache
+D:\Usuarios\Santiago\Proyectos\C#Projects\ConsoleApp4\obj\Debug\net6.0\ref\ConsoleApp4.dll
