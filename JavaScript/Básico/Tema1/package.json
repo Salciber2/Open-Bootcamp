@@ -1,0 +1,23 @@
+{
+  "name": "hola-mundo",
+  "version": "1.0.0",
+  "description": "Este es mi primer proyecto JavaScript con Node JS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "saludar": "node hola_mundo.js",
+    "hola-ob": "node saludo_open_bootcamp.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hola",
+    "mundo",
+    "first",
+    "project",
+    "primer",
+    "proyecto",
+    "holamundo"
+  ],
+  "author": "Salciber",
+  "license": "ISC"
+}
