@@ -1,0 +1,14 @@
+{
+  "name": "tema3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "factorial-for": "node factorial-for.js",
+    "factorial-while": "node factorial-while.js",
+    "factorial-break": "node factorial-break.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
