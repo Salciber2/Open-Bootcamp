@@ -14,13 +14,18 @@ console.log(verdad());
 
 const promesa = new Promise((resolve, reject) => {
     if (verdad()) {
-        setTimeout(() => {
-            console.log("Hola soy una promesa")
-        }, 5000)
         resolve();
     }
     else reject();
 })
+
+promesa
+    .then( () => 
+    setTimeout(() => {
+        console.log("Hola soy una promesa")
+    }, 5000)
+    )
+    .catch( () => console.log("Error!"))
 
 function* getPairIndex(){
     let id = 0;
