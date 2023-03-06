@@ -1,0 +1,16 @@
+{
+  "name": "tema7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "ejercicio1": "node ejercicio1/conjuntos.js",
+    "ejercicio2": "node ejercicio2/objetos.js",
+    "ejercicio3": "node ejercicio3/fechas.js",
+    "ejercicio4": "node ejercicio1/conjuntos.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
