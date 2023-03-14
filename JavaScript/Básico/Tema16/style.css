@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 1rem 5rem;
+    padding: 1rem;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.seccion {
+    margin: 1rem;
+    padding: 1rem;
+    border: solid 1px;
+    list-style: none;
+}
+
+.papelera {
+    margin: 1rem;
+    border: solid 1px;
+    background-color: white;
+    display: inline-block;
+    list-style: none;
+}
+
+.elemento {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: mintcream;
+    cursor: grab;
+    user-select: none;
+}
+
+.dragging {
+    opacity: 0.5;
+    cursor: grabbing;
+
+}
